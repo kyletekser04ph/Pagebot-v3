@@ -1,13 +1,13 @@
 const axios = require('axios');
 const { sendMessage } = require('../handles/message');
 const fs = require('fs');
-const token = fs.readFileSync('token.txt', 'utf8');
+const token = fs.readFileSync('configure.json');
 
 // [ true if turn on font & false if turn off ]
 const useFontFormatting = true;
 
 module.exports = {
-  name: 'ai',
+  name: 'educ',
   description: 'Interact to Free GPT - OpenAI.',
   author: 'system', // API by Kenlie Navacilla Jugarap
 
