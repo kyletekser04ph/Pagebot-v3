@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { sendMessage } = require('../handles/sendMessage');
+const { sendMessage } = require('../handles/message');
 
 const domains = ["rteet.com", "1secmail.com", "1secmail.org", "1secmail.net", "wwjmp.com", "esiix.com", "xojxe.com", "yoggm.com","nigga.com"];
 
